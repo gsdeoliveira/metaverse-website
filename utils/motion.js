@@ -14,7 +14,7 @@ export const navVariants = {
     transition: {
       type: 'spring',
       stiffness: 80,
-      delay: 1,
+      delay: 0.1,
     },
   },
 };
@@ -37,6 +37,7 @@ export const slideIn = (direction, type, delay, duration) => ({
 });
 
 export const staggerContainer = (staggerChildren, delayChildren) => ({
+
   hidden: {},
   show: {
     transition: {
