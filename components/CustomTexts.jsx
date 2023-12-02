@@ -14,5 +14,6 @@ export const TypingText = ({ title, textStyles }) => (
 );
 
 export const TitleText = ({ title, textStyles }) => (
+  console.log(title, textStyles)
   <h2>Title Text</h2>
 );
